@@ -13,7 +13,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from q2_reveal.actions import render
+from q2_enrich.actions import render
 
 # Good practice is to explicitely mark what is "available" for
 # subpackage export. This is only used by the `from x import *` syntax, but
