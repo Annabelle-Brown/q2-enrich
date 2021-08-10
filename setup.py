@@ -16,22 +16,22 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="q2-reveal",
+    name="q2-enrich",
     version='0.0.1.dev',
     packages=find_packages(),
     package_data={},
-    author="Evan Bolyen",
-    author_email="ebolyen@gmail.com",
+    author="Annabelle Brown",
+    author_email="annabelle811@live.com",
     description="Generate reveal.js presentations with collation",
     license='Apache-2.0',
-    url="https://github.com/ebolyen/q2-reveal",
+    url="https://github.com/Annabelle-Brown/q2-enrich.git",
     # This entry_point defines a structure in your site-packages which
     # pkg_resources can use to load "stuff" from a "namespace".
     # QIIME 2 has defined a namespace called qiime2.plugins, and it should
     # have look like <project_name>=<module path>:<reference>
     # A package _could_ have multiple plugins, but it would be unusual.
     entry_points={
-        'qiime2.plugins': ['q2-reveal=q2_reveal.plugin_setup:plugin']
+        'qiime2.plugins': ['q2-enrich=q2_enrich.plugin_setup:plugin']
     },
     zip_safe=False,
 )
