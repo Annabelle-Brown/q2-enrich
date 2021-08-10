@@ -22,9 +22,9 @@ setup(
     package_data={},
     author="Annabelle Brown",
     author_email="annabelle811@live.com",
-    description="Generate reveal.js presentations with collation",
+    description="Create visualizations for pepsirf enrich module outputs",
     license='Apache-2.0',
-    url="https://github.com/Annabelle-Brown/q2-enrich.git",
+    url="https://github.com/Annabelle-Brown/q2-enrich",
     # This entry_point defines a structure in your site-packages which
     # pkg_resources can use to load "stuff" from a "namespace".
     # QIIME 2 has defined a namespace called qiime2.plugins, and it should
